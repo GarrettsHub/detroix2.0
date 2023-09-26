@@ -59,24 +59,25 @@ a {
     padding-right: 0;
 }
 
-.nav-list{
+.g-nav-list{
     margin-top: 40px;
     padding-left: 0;
 }
 
-.nav-item {
+.g-item {
     margin-right: 3px;
-    padding: 10px 10px;
+    padding: 6px 22px;
     text-transform: uppercase;
     background-color: var(--btn);
     border-radius: 10px;
+    transition: 0.3s ease;
 }
 
-.nav-item:first-child {
+.g-item:hover {
     background-color: var(--orange);
 }
 
-.nav-item a {
+.g-item a {
     color: var(--bg);
     font-size: 18px;
 }
@@ -98,10 +99,6 @@ a {
 }
 
 .slider:hover {
-    background-color: var(--orange);
-}
-
-.slider:first-child {
     background-color: var(--orange);
 }
 
