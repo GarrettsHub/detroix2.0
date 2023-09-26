@@ -1,1 +1,83 @@
+:root {
+    --blue: #131c29; 
+    --orange: #ff8901; 
+    --bg: #f5f6f8;
+    --btn: #213349;
+    --date1: #be8442;
+    --date2: #bc6142;
+    --date3: #bd425e;
+    --bottomSec: #0b1016;
+    --font: 'Oswald', sans-serif;
+    --grad: radial-gradient(
+    at top center,
+        #37577d,
+        var(--blue) 40%
+    );
+}
+
 * {box-sizing: border-box;}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg);
+    font-family: var(--font);
+}
+
+a {
+    text-decoration: none;
+}
+
+.top-header {
+    background-color: var(--blue);
+    height: 45px;
+}
+
+.th-link {
+    color: #777;
+}
+
+.th-text {
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+.th-list {
+    margin-top: 10px;
+}
+
+.th-item {
+    border-right: 1px solid #777;
+    padding: 0 5px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.th-item:last-child {
+    border: none;
+    padding-right: 0;
+}
+
+.nav-list{
+    margin-top: 40px;
+    padding-left: 0;
+}
+
+.nav-item {
+    margin-right: 3px;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    background-color: var(--btn);
+    border-radius: 10px;
+}
+
+.nav-item:first-child {
+    background-color: var(--orange);
+}
+
+.nav-item a {
+    color: var(--bg);
+    font-size: 18px;
+}
+
